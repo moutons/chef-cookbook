@@ -44,7 +44,7 @@ when 'debian'
   package 'socat'
 
   # because erlang is difficult
-  package 'esl-erlang'
+  # package 'esl-erlang'
 
   # => Prevent Debian systems from automatically starting RabbitMQ after dpkg install
   dpkg_autostart node['rabbitmq']['service_name'] do
